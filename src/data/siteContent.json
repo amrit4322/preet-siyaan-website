@@ -1,0 +1,510 @@
+{
+  "site": {
+    "name": "Preetsiyaan Entertainment",
+    "domain": "https://www.preetsiyaan.com",
+    "language": "en",
+    "locale": "en-AU",
+    "timezone": "Australia/Melbourne"
+  },
+  "branding": {
+    "businessName": "Preetsiyaan Entertainment",
+    "shortName": "Preetsiyaan",
+    "tagline": "The Royal Spirit of Punjab",
+    "logo": "",
+    "favicon": "/favicon.svg",
+    "logoNote": "Wordmark fallback is used until an approved brand logo file is supplied."
+  },
+  "theme": {
+    "colors": {
+      "burgundy": "#4A1024",
+      "wine": "#290C1C",
+      "gold": "#C9A45C",
+      "champagne": "#E7C98D",
+      "ivory": "#FFF8EA",
+      "emerald": "#174B3F",
+      "charcoal": "#171317"
+    },
+    "typography": {
+      "heading": "Cormorant Garamond",
+      "body": "Manrope"
+    },
+    "visualSettings": {
+      "roundedCards": true,
+      "showTexture": true,
+      "showHeroParticles": true
+    }
+  },
+  "seo": {
+    "title": "Preetsiyaan Entertainment | Punjabi Wedding Entertainment",
+    "description": "Live Jago, Punjabi folk entertainment, wedding and event hosting, dhol, DJ, lighting and sound for celebrations.",
+    "defaultSocialImage": "/og.png",
+    "keywords": [
+      "Punjabi wedding entertainment",
+      "live Jago",
+      "Punjabi folk artists",
+      "dhol entertainment",
+      "wedding MC"
+    ]
+  },
+  "navigation": {
+    "items": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Experiences", "href": "#services" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Events", "href": "#events" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Book now",
+    "ctaHref": "#contact"
+  },
+  "hero": {
+    "eyebrow": "Punjabi wedding & cultural entertainment",
+    "heading": "Where Punjab celebrates in royal style.",
+    "description": "Live Jago, folk artistry, dhol, hosting and production—shaped into one unforgettable celebration.",
+    "primaryButton": { "label": "Book your celebration", "href": "#contact" },
+    "secondaryButton": { "label": "Explore our experiences", "href": "#services" },
+    "image": "/images/preetsiyaan-royal-hero.png",
+    "imageAlt": "An original editorial scene featuring an ornamental Jago vessel and dhol in a royal Punjabi courtyard",
+    "scrollLabel": "Scroll to enter",
+    "animationFlags": { "parallax": true, "particles": true, "pointerLight": true }
+  },
+  "introAnimation": {
+    "enabled": true,
+    "type": "punjabi-performer-reveal",
+    "brandLine": "The Royal Spirit of Punjab",
+    "durationMs": 4000,
+    "playOncePerSession": false,
+    "sessionKey": "preetsiyaan-intro-reveal-v2",
+    "showSkipButton": true,
+    "camera": {
+      "initialHeroScale": 0.78,
+      "finalHeroScale": 1,
+      "enableDollyEffect": true,
+      "perspective": 1600
+    },
+    "performers": {
+      "enableDanceAnimation": true,
+      "enableDepthParallax": true,
+      "left": [
+        {
+          "id": "left-dancer",
+          "src": "/images/intro/bhangra-dancer-left.png",
+          "motion": "bhangra",
+          "x": "-8%",
+          "width": "61%",
+          "depth": 1,
+          "delayMs": -120,
+          "secondary": true,
+          "hasGlow": true
+        },
+        {
+          "id": "left-dhol",
+          "src": "/images/intro/dhol-player-left.png",
+          "motion": "dhol",
+          "x": "39%",
+          "width": "54%",
+          "depth": 2,
+          "delayMs": -310,
+          "secondary": false,
+          "hasGlow": false
+        }
+      ],
+      "right": [
+        {
+          "id": "right-dhol",
+          "src": "/images/intro/dhol-player-right.png",
+          "motion": "dhol",
+          "x": "3%",
+          "width": "53%",
+          "depth": 2,
+          "delayMs": -90,
+          "secondary": false,
+          "hasGlow": false
+        },
+        {
+          "id": "right-dancer",
+          "src": "/images/intro/bhangra-dancer-right.png",
+          "motion": "bhangra",
+          "x": "42%",
+          "width": "61%",
+          "depth": 1,
+          "delayMs": -430,
+          "secondary": true,
+          "hasGlow": true
+        }
+      ]
+    },
+    "effects": {
+      "enableParticles": true,
+      "enablePointerParallax": true,
+      "enableAmbientLighting": true
+    },
+    "mobile": {
+      "simplifiedAnimation": true,
+      "reducedPerformerCount": true
+    }
+  },
+  "about": {
+    "eyebrow": "Our spirit",
+    "title": "Rooted in tradition. Alive with celebration.",
+    "copy": [
+      "Preetsiyaan brings the colour, rhythm and warmth of Punjabi celebration into weddings and special events through live entertainment and confident hosting.",
+      "From the first dhol beat to the final dance-floor moment, each enquiry begins with your people, your traditions and the atmosphere you want to create."
+    ],
+    "contentStatus": "Editable brand introduction based on the verified public service profile; replace with an approved founder story when available.",
+    "image": "/images/preetsiyaan-royal-hero.png",
+    "imageAlt": "Ornamental brass Jago vessel with traditional dhol and phulkari-inspired textiles",
+    "highlights": [
+      { "value": "Live", "label": "performance energy" },
+      { "value": "Folk", "label": "Punjabi artistry" },
+      { "value": "One", "label": "coordinated celebration" }
+    ]
+  },
+  "services": [
+    {
+      "id": "live-jago",
+      "name": "Live Jago",
+      "slug": "live-jago",
+      "status": "confirmed",
+      "kicker": "Signature experience",
+      "shortDescription": "A vibrant live Jago experience filled with folk colour, movement and celebratory energy.",
+      "detailedDescription": "A performance-led experience centred on the spirit and joy of Jago. Exact inclusions are tailored and confirmed during enquiry.",
+      "heroImage": "/images/preetsiyaan-royal-hero.png",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Lamp",
+      "highlights": ["Live performance", "Folk atmosphere", "Custom event flow"],
+      "featured": true,
+      "displayOrder": 1,
+      "bookingCta": "Enquire about Jago"
+    },
+    {
+      "id": "folk-entertainment",
+      "name": "Punjabi Folk Entertainment",
+      "slug": "punjabi-folk-entertainment",
+      "status": "confirmed",
+      "kicker": "Tradition in motion",
+      "shortDescription": "Punjabi folk artists who bring authentic rhythm, personality and connection to the room.",
+      "detailedDescription": "Folk-led entertainment designed around the format and energy of your celebration. Artist availability and inclusions are confirmed by enquiry.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Sparkles",
+      "highlights": ["Punjabi folk artists", "Audience connection", "Event-tailored format"],
+      "featured": true,
+      "displayOrder": 2,
+      "bookingCta": "Plan folk entertainment"
+    },
+    {
+      "id": "event-hosting",
+      "name": "Wedding & Event Hosting",
+      "slug": "wedding-event-hosting",
+      "status": "confirmed",
+      "kicker": "Keep every moment moving",
+      "shortDescription": "Warm, engaging hosting for weddings and events, with momentum from welcome to finale.",
+      "detailedDescription": "MC and hosting support for wedding and event programmes. Languages, run-sheet support and exact coverage are confirmed during planning.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Mic2",
+      "highlights": ["Event & wedding MC", "Guest engagement", "Run-sheet coordination"],
+      "featured": true,
+      "displayOrder": 3,
+      "bookingCta": "Enquire about hosting"
+    },
+    {
+      "id": "dhol",
+      "name": "Dhol Performances",
+      "slug": "dhol-performances",
+      "status": "confirmed",
+      "kicker": "Feel the rhythm",
+      "shortDescription": "High-impact dhol performance for entrances, dance moments and celebratory highlights.",
+      "detailedDescription": "Dhol entertainment can be planned around key moments in your event. Duration, artist count and logistics are confirmed by enquiry.",
+      "heroImage": "/images/preetsiyaan-royal-hero.png",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Drum",
+      "highlights": ["Live dhol", "Entrances & highlights", "Flexible timing"],
+      "featured": false,
+      "displayOrder": 4,
+      "bookingCta": "Book the beat"
+    },
+    {
+      "id": "dj-production",
+      "name": "DJ, Lighting & Sound",
+      "slug": "dj-lighting-sound",
+      "status": "confirmed",
+      "kicker": "The room, transformed",
+      "shortDescription": "DJ entertainment with lighting and sound to carry the celebration into the night.",
+      "detailedDescription": "DJ, lighting and sound are listed in the verified public service profile. Equipment scope, venue requirements and package inclusions are confirmed by enquiry.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "AudioLines",
+      "highlights": ["DJ entertainment", "Lighting", "Sound"],
+      "featured": false,
+      "displayOrder": 5,
+      "bookingCta": "Shape your production"
+    },
+    {
+      "id": "wedding-entertainment",
+      "name": "Wedding Entertainment",
+      "slug": "wedding-entertainment",
+      "status": "confirmed",
+      "kicker": "One celebration, one vision",
+      "shortDescription": "A coordinated entertainment approach shaped around your wedding programme and guests.",
+      "detailedDescription": "The public profile describes Preetsiyaan as a one-stop shop for wedding entertainment. Final combinations and coverage are confirmed through a tailored enquiry.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Gem",
+      "highlights": ["Tailored planning", "Multiple entertainment options", "Wedding focus"],
+      "featured": false,
+      "displayOrder": 6,
+      "bookingCta": "Start planning"
+    },
+    {
+      "id": "sangeet",
+      "name": "Sangeet Celebrations",
+      "slug": "sangeet-celebrations",
+      "status": "draft",
+      "kicker": "Editable draft category",
+      "shortDescription": "A flexible celebration concept for music, dance and family moments.",
+      "detailedDescription": "This category is included as an editable draft and is not presented as a confirmed standalone service until approved by the business.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "Music2",
+      "highlights": ["Draft content", "Confirm inclusions before publishing"],
+      "featured": false,
+      "displayOrder": 7,
+      "bookingCta": "Ask about Sangeet"
+    },
+    {
+      "id": "cultural-celebrations",
+      "name": "Other Cultural Celebrations",
+      "slug": "cultural-celebrations",
+      "status": "draft",
+      "kicker": "Editable draft category",
+      "shortDescription": "An enquiry pathway for Mehndi, Haldi, receptions and other cultural occasions.",
+      "detailedDescription": "These event types are supported in the site architecture but must be confirmed as offered before this draft is published as an official service.",
+      "heroImage": "",
+      "galleryImages": [],
+      "video": "",
+      "icon": "PartyPopper",
+      "highlights": ["Draft content", "Confirm availability by enquiry"],
+      "featured": false,
+      "displayOrder": 8,
+      "bookingCta": "Discuss your celebration"
+    }
+  ],
+  "experience": {
+    "eyebrow": "The signature moment",
+    "title": "A celebration you can feel before the first beat drops.",
+    "description": "Ornamental light, live rhythm and the warmth of Punjabi folk tradition come together in a layered experience designed around your event.",
+    "image": "/images/preetsiyaan-royal-hero.png",
+    "imageAlt": "Cinematic concept artwork of a royal Punjabi celebration",
+    "note": "Original concept artwork; replace with approved performance photography when available.",
+    "steps": [
+      { "number": "01", "title": "Tell us the feeling", "text": "Share your date, venue and the atmosphere you want to create." },
+      { "number": "02", "title": "Shape the experience", "text": "Choose the entertainment moments that fit your programme." },
+      { "number": "03", "title": "Celebrate fully", "text": "Bring your people together for a night rich in rhythm and connection." }
+    ]
+  },
+  "gallery": [],
+  "socialMedia": {
+    "instagram": { "label": "Instagram", "handle": "@jagowithpreetsiyaan", "url": "https://www.instagram.com/jagowithpreetsiyaan" },
+    "facebook": { "label": "Facebook", "handle": "jagowithpreetsiyaan", "url": "https://facebook.com/jagowithpreetsiyaan" },
+    "tiktok": { "label": "TikTok", "handle": "@jagowithpreetsiya", "url": "https://www.tiktok.com/@jagowithpreetsiya" },
+    "whatsapp": { "label": "WhatsApp", "handle": "+61 422 542 030", "url": "https://wa.link/f0rgzu" },
+    "youtube": { "label": "YouTube", "handle": "", "url": "" }
+  },
+  "socialHighlights": [],
+  "events": [],
+  "sampleEvents": [
+    {
+      "id": "sample-paid-event",
+      "isDemo": true,
+      "title": "SAMPLE — Paid Celebration",
+      "slug": "sample-paid-celebration",
+      "shortDescription": "Demo fixture only. Never publish as a real event.",
+      "fullDescription": "A non-production example showing the paid booking mode.",
+      "category": "Demo",
+      "startDatetime": "2030-05-10T18:00:00+10:00",
+      "endDatetime": "2030-05-10T23:00:00+10:00",
+      "timezone": "Australia/Melbourne",
+      "venueName": "Sample Venue",
+      "venueAddress": "",
+      "city": "Melbourne",
+      "state": "VIC",
+      "poster": "",
+      "galleryImages": [],
+      "featured": true,
+      "visibility": "demo-only",
+      "bookingType": "paid",
+      "price": "From $49",
+      "currency": "AUD",
+      "externalTicketUrl": "https://example.com/sample-ticket",
+      "registrationUrl": "",
+      "ticketStatus": "available",
+      "maximumCapacity": null,
+      "organiser": { "name": "Sample Organiser", "url": "" },
+      "terms": "Demo fixture only."
+    },
+    {
+      "id": "sample-free-event",
+      "isDemo": true,
+      "title": "SAMPLE — Free Community Event",
+      "slug": "sample-free-community-event",
+      "shortDescription": "Demo fixture only. Never publish as a real event.",
+      "fullDescription": "A non-production example showing free registration.",
+      "category": "Demo",
+      "startDatetime": "2030-06-14T12:00:00+10:00",
+      "endDatetime": "2030-06-14T16:00:00+10:00",
+      "timezone": "Australia/Melbourne",
+      "venueName": "Sample Park",
+      "venueAddress": "",
+      "city": "Melbourne",
+      "state": "VIC",
+      "poster": "",
+      "galleryImages": [],
+      "featured": false,
+      "visibility": "demo-only",
+      "bookingType": "free",
+      "price": "Free",
+      "currency": "AUD",
+      "externalTicketUrl": "",
+      "registrationUrl": "https://example.com/sample-registration",
+      "ticketStatus": "available",
+      "maximumCapacity": null,
+      "organiser": { "name": "Sample Organiser", "url": "" },
+      "terms": "Demo fixture only."
+    },
+    {
+      "id": "sample-enquiry-event",
+      "isDemo": true,
+      "title": "SAMPLE — Private Celebration",
+      "slug": "sample-private-celebration",
+      "shortDescription": "Demo fixture only. Never publish as a real event.",
+      "fullDescription": "A non-production example showing enquiry-only booking.",
+      "category": "Demo",
+      "startDatetime": "2030-07-20T18:00:00+10:00",
+      "endDatetime": "2030-07-20T22:00:00+10:00",
+      "timezone": "Australia/Melbourne",
+      "venueName": "Private Venue",
+      "venueAddress": "",
+      "city": "Melbourne",
+      "state": "VIC",
+      "poster": "",
+      "galleryImages": [],
+      "featured": false,
+      "visibility": "demo-only",
+      "bookingType": "enquiry",
+      "price": "",
+      "currency": "AUD",
+      "externalTicketUrl": "",
+      "registrationUrl": "",
+      "ticketStatus": "enquiry",
+      "maximumCapacity": null,
+      "organiser": { "name": "Sample Organiser", "url": "" },
+      "terms": "Demo fixture only."
+    }
+  ],
+  "testimonials": [],
+  "faq": [
+    {
+      "id": "availability",
+      "question": "How do we check availability?",
+      "answer": "Send your event date, location and preferred experiences through the enquiry form. Availability is confirmed personally; the website does not show a live calendar."
+    },
+    {
+      "id": "custom-package",
+      "question": "Can we combine entertainment services?",
+      "answer": "Use the enquiry form to select multiple interests. Preetsiyaan can then confirm which combinations are available and suitable for your event."
+    },
+    {
+      "id": "event-details",
+      "question": "What details should we share?",
+      "answer": "Your date, venue or suburb, event type, approximate guest count and the moments you want entertainment for are the most useful starting points."
+    },
+    {
+      "id": "coverage",
+      "question": "Which areas do you cover?",
+      "answer": "Coverage areas are not currently published. Include your event location in the enquiry so travel and availability can be confirmed accurately."
+    },
+    {
+      "id": "production",
+      "question": "Are DJ, lighting and sound available?",
+      "answer": "DJ, lighting and sound appear in the verified public service profile. Equipment, venue requirements and exact inclusions are confirmed for each event."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Begin your celebration",
+    "title": "Let’s create a night your people will remember.",
+    "description": "Share the essentials and continue the conversation directly on WhatsApp. No enquiry is submitted to a server until a form endpoint is configured.",
+    "eventTypes": ["Wedding", "Jago", "Sangeet", "Mehndi", "Haldi", "Reception", "Community event", "Other"],
+    "serviceOptions": ["Live Jago", "Punjabi folk entertainment", "Wedding & event hosting", "Dhol", "DJ, lighting & sound", "Other / not sure yet"],
+    "consentLabel": "I agree to be contacted about this enquiry.",
+    "submitLabel": "Send enquiry",
+    "fallbackLabel": "Continue on WhatsApp",
+    "successMessage": "Thanks — your enquiry has been sent.",
+    "unconfiguredMessage": "Direct form delivery is not configured yet. Continue on WhatsApp to send this enquiry now.",
+    "formEndpointEnv": "VITE_CONTACT_FORM_ENDPOINT",
+    "publicEmail": "",
+    "phoneDisplay": "+61 422 542 030",
+    "phoneHref": "+61422542030",
+    "verificationNote": "WhatsApp number and social destinations verified through the official Linktree on 11 November 2026. Public email and street address are intentionally omitted until supplied."
+  },
+  "footer": {
+    "description": "Royal Punjabi entertainment for celebrations full of rhythm, colour and connection.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "About", "href": "#about" },
+          { "label": "Experiences", "href": "#services" },
+          { "label": "Events", "href": "#events" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Follow",
+        "links": [
+          { "label": "Instagram", "href": "https://www.instagram.com/jagowithpreetsiyaan" },
+          { "label": "Facebook", "href": "https://facebook.com/jagowithpreetsiyaan" },
+          { "label": "TikTok", "href": "https://www.tiktok.com/@jagowithpreetsiya" }
+        ]
+      }
+    ],
+    "copyright": "Preetsiyaan Entertainment. All rights reserved.",
+    "credit": "Built for celebration."
+  },
+  "features": {
+    "showAbout": true,
+    "showServices": true,
+    "showExperience": true,
+    "showGallery": true,
+    "showEvents": true,
+    "showTestimonials": true,
+    "showFaq": true,
+    "showContact": true,
+    "enableMotion": true,
+    "enableIntroAnimation": true,
+    "enableThreeScene": true,
+    "showDraftServices": true
+  },
+  "assets": {
+    "heroImage": "/images/preetsiyaan-royal-hero.png",
+    "introPerformers": [
+      "/images/intro/bhangra-dancer-left.png",
+      "/images/intro/dhol-player-left.png",
+      "/images/intro/dhol-player-right.png",
+      "/images/intro/bhangra-dancer-right.png"
+    ],
+    "heroVideo": "",
+    "heroModel": "",
+    "fallbackImage": "/images/preetsiyaan-royal-hero.png",
+    "socialImage": "/og.png"
+  }
+}
